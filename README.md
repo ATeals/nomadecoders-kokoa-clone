@@ -1,1 +1,1 @@
-# nomadecoders-kokoa-clone
+# 노마드 코더 코코아 클론 강의 클론 파일!
