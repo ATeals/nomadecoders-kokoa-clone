@@ -10,3 +10,21 @@
     font-weight: 600;
 }
 
+.badge__dot{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+}
+
+.badge__dot__more{
+    left: 35px;
+    bottom: 25px; 
+}
+
+.badge__dot__icon{
+    left: 25px;
+    bottom: 18px; 
+}
