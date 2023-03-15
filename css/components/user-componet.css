@@ -49,3 +49,20 @@
     display: block;
     margin-bottom: 10px;
 }
+
+.user-component__dis{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    padding-top: 10px;
+}
+
+.user-component__dis h6{
+    margin-right: 10px;
+}
+
+.user-component__dis i{
+    font-size: 15px;
+    color: tomato;
+}

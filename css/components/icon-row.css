@@ -1,0 +1,22 @@
+.icon-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon-row__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 20px 0px;
+    box-sizing: border-box; /* 패딩때매 넘어감 */
+}
+
+.icon-row__icon i{
+    font-size: 40px;
+}
+
+.icon-row__icon span{
+    margin-top: 15px;
+}
+
