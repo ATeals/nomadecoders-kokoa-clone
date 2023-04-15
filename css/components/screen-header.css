@@ -32,3 +32,16 @@
     background: #ffffff;
     box-shadow: 7px 7px 14px #8f8f8f, -7px -7px 14px #ffffff;
 }
+
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons:hover .fa-cog {
+    animation: rotateCog 3s linear infinite;
+}
