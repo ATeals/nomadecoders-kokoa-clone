@@ -41,3 +41,34 @@ body:hover .backImg img {
     font-weight: 900;
     font-size: 70px;
 }
+
+.bubble__des {
+    position: relative;
+    background: rgba(124, 124, 124, 0.8);
+    border-radius: 0.4em;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    left: 25%;
+    bottom: -760px;
+    color: white;
+}
+
+.bubble__des::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom-color: rgba(124, 124, 124, 0.8);
+    border-top: 0;
+    margin-left: -12px;
+    margin-top: -12px;
+}
+
+body:hover .bubble__des {
+    display: none;
+}
