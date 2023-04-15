@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Welcome to Kokoa Tolk</title>
-</head>
-<body>
-    <div class ="status-bar">
-        <div class ="status-bar__column">
-            <span> No Service</span>
-            <i class="fas fa-wifi"></i>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/screens/index.css" />
+        <title>Main</title>
+    </head>
+    <body class="body__index">
+        <section class="phoneBtn">
+            <a class="phoneBtn__home" href="index.html"></a>
+            <a class="phoneBtn__volume phoneBtn__volume-up" href=""></a>
+            <a class="phoneBtn__volume phoneBtn__volume-down" href=""></a>
+        </section>
+
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <div>No Service</div>
+            </div>
+            <div class="status-bar__column">
+                <span>●</span>
+            </div>
+            <div class="status-bar__column">
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-battery-three-quarters"></i>
+                <div class="bar"></div>
+            </div>
         </div>
-        <div class ="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class ="status-bar__column">
-            <span>110%</span>
-            <i class="fas fa-battery-quarter fa-lg"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
-    </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-        <p class="welcome-header__text">If you have a kokoa Account, log in with your email or phone number.</p>
-    </header>
+        <section class="times">
+            <div class="times__date">Saturday, April 15</div>
+            <div class="times__clock">12:27</div>
+        </section>
 
-    <form id ="login-form" action="friends.html" method="get">
-        <input type="text" placeholder="Email or phone number"/>
-        <input type="password" placeholder="passworld" />
-        <input type="submit" value="Log In" />
-        <a  href="#">Find kokoa Account or Password</a>
-    </form>
+        <section class="bubble__des"></section>
 
-   
+        <section class="bottom__btn">
+            <div class="bottom__btn__column">
+                <i class="fa-solid fa-lightbulb fa-lg"></i>
+            </div>
+            <div class="bottom__btn__column">
+                <i class="fa-solid fa-camera fa-lg"></i>
+            </div>
+            <a class="main__btn" href="html/friends.html"></a>
+        </section>
 
-    <script src="https://kit.fontawesome.com/6478f529f2.js"></script>
-</body>
-</html> 
+        <div class="backImg"><img src="img/iPhone-14-pro.webp" alt="" /></div>
+        <!-- <div class="splash"></div> -->
+
+        <script src="https://kit.fontawesome.com/3690d2b434.js" crossorigin="anonymous"></script>
+    </body>
+</html>

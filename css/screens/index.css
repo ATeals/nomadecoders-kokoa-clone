@@ -1,0 +1,43 @@
+.backImg {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.backImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    filter: brightness(70%);
+}
+
+body:hover .backImg img {
+    filter: none;
+    transition: all ease-in-out 0.3s;
+}
+
+.times {
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.times__date {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.times__clock {
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 70px;
+}

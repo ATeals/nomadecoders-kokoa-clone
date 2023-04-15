@@ -1,22 +1,26 @@
-.more-screen .icon-row{
-    margin-top: 35px;
+.more__screen {
+    margin-top: -20px;
+    height: 520px;
+    overflow-x: scroll;
+    border-radius: 20px;
 }
 
-.more-suggestions{
+.more-suggestions {
     margin-top: 50px;
     border-top: var(--main-border);
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
-.more-suggestions__title{
+.more-suggestions__title {
     margin-bottom: 30px;
+    font-size: 12px;
 }
 
-.more-suggestions__icons{
+.more-suggestions__icons {
     display: flex;
 }
 
-.more-suggestions__icon{
+.more-suggestions__icon {
     display: flex;
     flex-direction: column;
     margin-right: 30px;
@@ -26,10 +30,9 @@
     box-sizing: border-box;
 }
 
-.more-suggestions__icon-image{
-    width: 60px;
-    height: 60px;
-    background-color: var(--yellow);
+.more-suggestions__icon-image {
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -37,7 +40,11 @@
     margin-bottom: 10px;
 }
 
-.more-suggestions__icon-image i{
-    font-size: 30px;
-    color: white;
+.more-suggestions__icon-image i {
+    font-size: 20px;
+}
+
+.more-suggestions__icon-text {
+    font-size: 10px;
+    text-align: center;
 }
